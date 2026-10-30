@@ -45,13 +45,3 @@ Sources/
 3. Select an iOS Simulator (e.g., **iPhone 16 Pro**).
 4. Press `Cmd + R` to build and run!
 5. In the simulator, tap **"Scan Receipt"** -> **"Load Sample Receipt (Simulator Demo)"** to instantly test the flow without needing physical camera hardware.
-
----
-
-## 💼 Resume & Interview Talking Points
-
-When demonstrating this project in interviews:
-1. **Apple Vision Framework**: Explain how `VNRecognizeTextRequest` parses receipt lines at 60 FPS using regex boundary detection for numbers and currency.
-2. **SwiftUI State Management**: Highlight the `@Observable` macro (iOS 17+ Observation framework) replacing legacy `ObservableObject` and `@Published`.
-3. **URL Scheme Deep Linking**: Explain how the app constructs deep links to external apps (`venmo://paycharge`) with graceful fallbacks.
-4. **Clean Code & Modularity**: Point to the separation of concern between the Parser service, the reactive View Model, and the modular Views.
