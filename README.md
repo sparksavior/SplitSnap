@@ -36,12 +36,3 @@ Sources/
     └── Components/              # Modular UI components (Avatars, Rows)
 ```
 
----
-
-## 🚀 How to Open and Run in Xcode
-
-1. Open **Xcode** on your Mac.
-2. Go to **File** > **Open...** (or double-click the `Package.swift` file in `/Users/nikhil/Documents/SplitSnap`).
-3. Select an iOS Simulator (e.g., **iPhone 16 Pro**).
-4. Press `Cmd + R` to build and run!
-5. In the simulator, tap **"Scan Receipt"** -> **"Load Sample Receipt (Simulator Demo)"** to instantly test the flow without needing physical camera hardware.
